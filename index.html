@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AASSINGENIERIA - Soluciones Eléctricas e Ingeniería</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-bolt logo-icon"></i> AASSINGENIERIA
+            </a>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-list">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-content reveal">
+            <span class="hero-badge"><i class="fa-solid fa-certificate"></i> Ingeniería Eléctrica de Alta Calidad</span>
+            <h1>Soluciones Eléctricas e Ingeniería de Confianza</h1>
+            <p>Especialistas en instalaciones industriales, comerciales y residenciales con los más altos estándares de seguridad y calidad.</p>
+            <div class="hero-btns">
+                <a href="#contacto" class="btn btn-primary">
+                    <span>Solicitar Cotización</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#servicios" class="btn btn-secondary">
+                    <span>Ver Servicios</span>
+                </a>
+            </div>
+        </div>
+        <a href="#nosotros" class="scroll-down" aria-label="Desplazarse hacia abajo">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="reveal">
+        <div class="about-card">
+            <h2 class="section-title">Sobre AASSINGENIERIA</h2>
+            <p class="about-text">
+                En <strong>AASSINGENIERIA</strong> nos dedicamos a brindar servicios integrales de ingeniería eléctrica. Contamos con amplia experiencia en diseño, ejecución y mantenimiento de proyectos eléctricos, garantizando la continuidad operativa y el cumplimiento de las normativas vigentes.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Seguridad Garantizada</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"><i class="fa-solid fa-sliders"></i></span>
+                    <span class="stat-number">Alta</span>
+                    <span class="stat-label">Eficiencia Operativa</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon"><i class="fa-solid fa-clock"></i></span>
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Soporte Técnico</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h2 class="section-title reveal">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3>Instalaciones Eléctricas</h3>
+                <p>Montaje y cableado de redes eléctricas en baja y media tensión para proyectos residenciales e industriales.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <h3>Mantenimiento Preventivo</h3>
+                <p>Inspección de tableros, termografía y pruebas de aislamiento para evitar fallas críticas en sus instalaciones.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <h3>Proyectos y Certificaciones</h3>
+                <p>Elaboración de planos eléctricos, memorias de cálculo y tramitación de normativa y certificaciones vigentes.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>Eficiencia Energética</h3>
+                <p>Estudios de consumo, corrección de factor de potencia y soluciones de iluminación LED para optimizar costos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2 class="section-title reveal">Contáctanos</h2>
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Teléfono</strong>
+                        <p>+56 9 1234 5678</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong>Correo</strong>
+                        <p>contacto@aassingenieria.cl</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong>Ubicación</strong>
+                        <p>Concepción, Región del Bío Bío, Chile</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <strong>Horario</strong>
+                        <p>Lunes a Viernes: 08:30 - 18:00 hrs</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje o Requerimiento</label>
+                    <textarea id="mensaje" rows="4" required placeholder="Describe tu proyecto o consulta..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <span>Enviar Mensaje</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 AASSINGENIERIA - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <div class="toast-content">
+            <span class="toast-title">¡Mensaje Enviado!</span>
+            <span class="toast-message" id="toastMessage">Gracias por contactarnos. Te responderemos pronto.</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
